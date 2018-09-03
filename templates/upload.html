@@ -1,0 +1,32 @@
+<html>
+        <head>
+                <style type="text/css">
+                .btn{
+                    background: #4caf50;
+                    color: #fff;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    border: 1px solid #fff;
+                    padding: 5px 10px;
+                }
+                .block1{
+                    margin: 0 auto;
+                    width: 30%;
+                    text-align: center;
+                }
+                </style>
+            </head>
+   <body>
+   <div width="100px">
+      <form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <div class="block1">            
+                <h2 style="color:#673ab7;"> File Upload Portal</h2>
+         <input type = "file" name = "file"/> <br> <br>
+         <input type = "submit" class="btn"/>
+         </div>
+      </form>
+    </div>
+      
+   </body>
+</html>
