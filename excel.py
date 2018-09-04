@@ -20,7 +20,8 @@ def processExcel(filename) :
 
 
     wb = Workbook()
-    dest_filename = 'output.xlsx'
+    splited = filename.split(".")
+    dest_filename = splited[0]+"output"+".xlsx"
     ws1 = wb.active
     ws1.title = "Trading"
 
